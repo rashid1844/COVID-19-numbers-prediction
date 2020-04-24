@@ -31,7 +31,7 @@ The basic features for each country are population, density, area, and urban per
 ## Model:
 A Recurrent Neural Network (RNN) model was used, as it's able to predict multiple days in the future. The network consists of four full connected layers, each with 200 neurons. Three Dropout layer was used with a drop rate of 0.1 and a RELU activation layer. Mean absolute loss function provided better results as opposed to mean square error as it gives higher weight to high error. Adam optimizer was used because it has a decaying learning rate.  Using the model to predict for the next n-days is done by predicting the first day values, the output is used to predict the next day. This is repeated n-times to predict for n-days.
 
-![FC](FCNN.png)
+![FC](FCNN.PNG)
 
 
 ## Results:
