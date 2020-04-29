@@ -1,4 +1,4 @@
-# COVID-19 numbers prediction
+# COVID-19 spread prediction
 
 
 ## Outline:
