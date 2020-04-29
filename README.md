@@ -48,4 +48,4 @@ After training the model for 1000 epoch, it resulted in a mean absolute error MA
 - https://www.kaggle.com/fernandol/countries-of-the-world
 - https://github.com/CSSEGISandData/COVID-19
 
-Note: This project is part of a Michine learning course tought by Dr.Davor Svetinovic
+Note: This project is part of a Machine learning course taught by Dr.Davor Svetinovic
