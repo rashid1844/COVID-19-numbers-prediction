@@ -35,7 +35,7 @@ A Recurrent Neural Network (RNN) model was used, as it's able to predict multipl
 
 
 ## Results:
-After training the model for 1000 epoch, it resulted in a mean absolute error MAE for the validation data is 0.07. So considering a normalization factor of 1000 for cases, and 100 for deaths means that the case error is 70 cases, and 7 for deaths.  The Mean Absolute Percentage Error is 32.37% for the test sample, samples with zero value are ignored.
+After training the model for 1000 epoch, it resulted in a mean absolute error MAE for the validation data is 0.07. So considering a normalization factor of 1000 for cases, and 100 for deaths means that the case error is 70 cases, and 7 for deaths.  The Mean Absolute Percentage Error is 32.37% for the test sample, samples with zero value are ignored. The main reason behind the low accuracy is that one of the main attributes is not available which is the number of tests done per day.
 
 ## Running the code:
 1. Copy the latest dataset from the github link
